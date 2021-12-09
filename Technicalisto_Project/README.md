@@ -1,14 +1,22 @@
 
 # Technicalisto
 
-## How to create horizontal CollectionView inside TableViewCell
+## How to Handle Contact us by Mail , Phone Call , Whatsapp , Telegram , Twitter 
 
-1. Create your custom design as UITableView inside it add UITableViewCell inside it add your horizontal CollectionView.
+1. Follow Video or Github link .
 
-2. Connect your Big tableview delegate to your viewController and send data with custom cell & reload collectionView after connect.
+2. For whatsapp , telegram add this to info.plist :
 
-3. in your custom TableViewCell add delegate of collectionView and send data to custom collectionViewCell.
+       <key>LSApplicationQueriesSchemes</key>
+       <array>
+         <string>whatsapp</string>
+        <string>tg</string>
+       </array>
 
-
+## Note : Need Physical Device for test 
+ 
 ### Thanks
+
+This app is inspired by Aya Baghdadi”
+and copyright for [@Technicalisto](https://www.youtube.com/channel/UC7554uvArdSxL4tlws7Wf8Q)
 
